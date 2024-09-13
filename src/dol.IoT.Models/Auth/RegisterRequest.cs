@@ -1,0 +1,7 @@
+﻿namespace dol.IoT.Models.Public.Auth;
+
+public class RegisterRequest
+{
+    public required string Email { get; init; }
+    public required string Password { get; init; }
+};
