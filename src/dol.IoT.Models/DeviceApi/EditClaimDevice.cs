@@ -3,4 +3,4 @@
 public record EditClaimDeviceRequest(
     string MacAddress,
     string? Owner,
-    DeviceType? DeviceType);
+    string? DeviceName);
