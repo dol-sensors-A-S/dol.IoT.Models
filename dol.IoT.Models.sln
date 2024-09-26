@@ -4,6 +4,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "dol.IoT.Models", "src\dol.I
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DeserializeUnitTests", "test\DeserializeUnitTests\DeserializeUnitTests.csproj", "{1F0066C8-7FB2-4FFD-82D5-7A33B9D65962}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "dol.IoT.Models.Example", "src\dol.IoT.Models.Example\dol.IoT.Models.Example.csproj", "{C702ABFD-89AC-430E-ADAB-34BAE5FA83AB}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -18,5 +20,9 @@ Global
 		{1F0066C8-7FB2-4FFD-82D5-7A33B9D65962}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1F0066C8-7FB2-4FFD-82D5-7A33B9D65962}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1F0066C8-7FB2-4FFD-82D5-7A33B9D65962}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C702ABFD-89AC-430E-ADAB-34BAE5FA83AB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C702ABFD-89AC-430E-ADAB-34BAE5FA83AB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C702ABFD-89AC-430E-ADAB-34BAE5FA83AB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C702ABFD-89AC-430E-ADAB-34BAE5FA83AB}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
