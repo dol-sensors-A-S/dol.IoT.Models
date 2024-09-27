@@ -12,5 +12,6 @@
         <RepositoryUrl>https://github.com/dol-sensors-A-S/dol.IoT.Models</RepositoryUrl>
         <PackageLicenseExpression>MIT</PackageLicenseExpression>
         <RootNamespace>dol.IoT.Models.Public</RootNamespace>
+        <PackageReadmeFile>README.md</PackageReadmeFile>
     </PropertyGroup>
 </Project>

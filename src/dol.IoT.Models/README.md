@@ -1,0 +1,6 @@
+[![NuGet Version](https://img.shields.io/nuget/v/dol.IoT.Models?style=social&logo=nuget)](https://www.nuget.org/packages/dol.IoT.Models)
+# Overview
+
+This package contains the models corresponding to the Schemas found in the [Swagger page](https://dol-iot-api-qa.azurewebsites.net/swagger/index.html), which contains all the HTTP endpoints that are relevant when working with [dol-sensors IoT integration](https://github.com/dol-sensors-A-S/dol.IoT.Integrator.Cli/blob/master/resources/Integrator-API-getting-started.md). The namespace `dol.IoT.Models.Public` has four subnamespaces. The three subnamespaces `Auth`, `DeviceApi`, `ManagementApi`, corresponds to the models associated with the three header categories in the Swagger page. The fourth subnamespace, `Messages`, contains all the models that are relevant for the HTTP API `/api/management/queue`.
+
+[dol.IoT.Models.Example](https://github.com/dol-sensors-A-S/dol.IoT.Models/tree/master/src/dol.IoT.Models.Example) contains an example for how to work with our API using this NuGet package.
