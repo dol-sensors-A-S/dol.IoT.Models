@@ -11,6 +11,7 @@ public class DataMessage
     public required string Unit { get; set; }
     public required long Timestamp { get; set; }
 
+    public string? GatewayId { get; set; }
     public bool? WithinSpec { get; set; }
     public int? Count { get; set; }
     public double? MinWeight { get; set; }
