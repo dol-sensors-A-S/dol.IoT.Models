@@ -22,6 +22,7 @@ public record CameraStatusResponse(
     CameraDirty? CameraDirty,
     bool? ManuallyCalibrated,
     string? CalibrationStatus,
+    string? CalibrationUpdate,
     bool? DirtyDetectionEnabled,
     string? LastCalibrationTime,
     VisionMessageResponse[]? Messages);
