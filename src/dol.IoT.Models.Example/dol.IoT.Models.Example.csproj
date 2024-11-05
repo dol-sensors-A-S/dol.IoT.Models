@@ -10,7 +10,7 @@
     <ItemGroup>
         <PackageReference Include="Azure.Messaging.ServiceBus" Version="7.18.1" />
         <PackageReference Include="dol.IoT.Models" Version="1.0.2"/>
-        <PackageReference Include="System.Text.Json" Version="8.0.4"/>
+        <PackageReference Include="System.Text.Json" Version="8.0.5" />
     </ItemGroup>
 
 </Project>
