@@ -6,7 +6,7 @@ public class DataMessage
     public required string DeviceId { get; set; }
     public required string SensorId { get; set; }
     public required string SensorName { get; set; }
-    public required decimal Value { get; set; }
+    public decimal? Value { get; set; }
     public required string Type { get; set; }
     public required string Unit { get; set; }
     public required long Timestamp { get; set; }
