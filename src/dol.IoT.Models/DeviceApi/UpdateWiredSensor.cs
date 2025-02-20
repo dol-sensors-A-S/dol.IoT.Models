@@ -3,4 +3,4 @@
 namespace dol.IoT.Models.Public.DeviceApi;
 
 public record UpdateWiredSensorsRequest(WiredSensorRequest[] Sensors);
-public record WiredSensorRequest(string Name, int Port, WiredSensorType WiredSensorType, int SamplingRate,DateTime? LastSent);
+public record WiredSensorRequest(string Name, int Port, WiredSensorType WiredSensorType, int SamplingRate,string LastSent);
