@@ -41,7 +41,7 @@ public record SensorResponse(
 
 public record BatteryStatus(int Code, string Value);
 
-public record WiredSensorResponse(int Port, WiredSensorType WiredSensorType, int SamplingRate);
+public record WiredSensorResponse(string Name, int Port, WiredSensorType WiredSensorType, int SamplingRate,string LastSent);
 
 public record IDOL63ConfigResponse(IDOL63SensorConfigResponse[] Sensors, int SampleRate);
 
