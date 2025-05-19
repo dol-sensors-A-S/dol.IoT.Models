@@ -27,8 +27,9 @@ public enum SensorType
     DOL51 = 10,
     Axetris_LGD_CompactA_CH4_Methane = 11,
     Axetris_LGD_ping = 12,
-    Pulse_Counter = 13,
-    Analog_0_10V = 14
+    MilesightAT101 = 13,
+    Pulse_Counter = 14,
+    Analog_0_10V = 15,
 }
 
 [JsonConverter(typeof(JsonStringEnumConverter))]
